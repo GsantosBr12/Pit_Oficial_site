@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+    background-color: #1C1C1C;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30em;
+    position: absolute;
+    width: 30%;
+    top:200px;
+    left: 670px;
+    background: #3E3E3E;
+    border-radius: 5px;
+    padding: 20px;
+}
+header {
+    background-color: #0E0F1B;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20.5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+p,
+a {
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input,
+textarea {
+    padding: 16px;
+}
+
+input,
+button {
+    height: 40px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #8DBED9;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 48px;
+}
+
+button img {
+    margin-right: 8px;
+}
+
+a {
+    color: #25d366;
+}
+.hmb{
+    pointer-events: none;
+    position:relative;
+    left: 1100px;
+    top: 10px;
+    rotate: 14.13deg;
+    width: 50%;
+}

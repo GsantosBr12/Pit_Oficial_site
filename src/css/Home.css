@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    overflow: hidden;
+}
+
+header {
+    background-color: #0E0F1B;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20.5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    position: relative;
+    top: 150px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 27px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #8DBED9;
+    color: #0E0F1B;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    right: 265px;
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+}
+
+.hero .b-v {
+    color: #8DBED9;
+    position: relative;
+    right: 300px;
+}
+
+.hero .xp {
+    color: #8DBED9;
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+
+#txt img {
+    position: relative;
+    top: 220px;
+    left: 30px;
+}
+
+#txt {
+    background-color: #3E3E3E;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name {
+    position: absolute;
+    font-size: 200px;
+    font-family: monospace;
+    color: #fff;
+    bottom: 500px;
+    left: 50px;
+    width: 100;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.hmb {
+    pointer-events: none;
+    position: relative;
+    left: 840px;
+    bottom: 100px;
+    rotate: 14.13deg;
+    width: 60%;
+}
+.abt{
+    width: 75%;
+    position: relative;
+    left: 40px;
+}
